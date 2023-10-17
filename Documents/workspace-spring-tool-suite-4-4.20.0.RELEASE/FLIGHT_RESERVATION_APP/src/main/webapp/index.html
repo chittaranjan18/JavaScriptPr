@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+	.button {
+ display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.button:hover {
+	background-color: #3e8e41
+	}
+
+.button:active {
+  
+  box-shadow: 0 5px #666;
+  transform: translateY(4px)
+  }
+.container{
+	margin-top: 250px;
+		
+		
+}
+
+.button1 {
+	background-color: #4CAF50;
+	margin-left: 300px;
+	} 
+.button2 {background-color: #008CBA;
+margin-left:300px;
+}
+body{
+	background-image: url('/images/index.png');
+	background-size: cover;
+		background-repeat: no-repeat;
+}
+.shadow{
+	  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+</style>
+</head>
+<body>
+	<div class="container text-center">
+    <pre> <h2 class="shadow" style="color:blue"> WELCOME TO STARK ONLINE FLIGHT 
+		           RESERVATION SYSTEM</h2></pre> 
+     <!--<a href="log">Click here to Login</a><br>
+      <a href="reg">Click here to regestration</a>--> 
+      <form action="/log" method="post">
+    <button class="button button1" type="submit">Log In</button>
+</form>
+<br>
+<form action="/reg" method="post">
+    <button class="button button2" type="submit">Sign Up</button>
+</form>
+      </div>
+</body>
+</html>
